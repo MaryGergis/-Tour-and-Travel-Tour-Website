@@ -1,0 +1,442 @@
+*{margin: 0; padding: 0;}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url(../font/fontawesome/Mulish-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(../font/fontawesome/Inter-VariableFont_slnt\,wght.ttf)
+}
+
+
+@font-face {
+    font-family: 'PlayfairDisplay';
+    src: url(../font/fontawesome/PlayfairDisplay-VariableFont_wght.ttf)
+}
+
+/* style for nav bar */
+
+
+.top-nav .table{display: table; width: 90%;  margin-bottom: 80px; }
+
+.top-nav .table-cell{display: table-cell; vertical-align:  middle;  width: 40%;}
+
+
+nav  li{
+    display: inline-block;
+    padding: 10px ;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #202336;
+    }
+
+.top-nav img{margin-left: 20%; margin-top: 5%;}  
+
+.top-nav .table-cell .nav{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: gray;}
+
+
+.navbar-nav .button-login{background-color: white; padding: 10px 30px; border: 1px solid transparent;
+    display: inline-block; color: #FB8F1D; text-decoration: none; font-size: 15px;
+    border-radius: 8px; border-color: #FB8F1D; margin-right: 1%; margin-left: 2%;
+    }
+
+.navbar-nav .button-login:hover{background-color: #FB8F1D; color: #FFFFFF; }    
+
+
+.navbar-nav .button-register{background-color: #FB8F1D; padding: 10px 30px; border: 1px solid transparent;
+    margin-top: 2%; display: inline-block; color: white ; text-decoration: none; font-size: 15px;
+    border-radius: 8px; border-color: #FB8F1D;
+    }
+    
+    
+.navbar-nav .button-register:hover{background-color: transparent; color: #FB8F1D; border-color: #FB8F1D;}    
+
+
+
+/* style for section2 Explore and travel*/ 
+
+.Explore-travel{display: table; width: 80%; margin: 0 auto; margin-bottom: 150px; }
+
+.Explore-travel .table-cell{display: table-cell; vertical-align:  middle;  width: 40%; } 
+
+.Explore-travel  img{width: 530px; height: 600px;  margin-left: 9%;}
+
+.Explore-travel  h1{font-size: 64px;  margin-bottom: 64px; font-family: 'PlayfairDisplay';}
+
+.Explore-travel h4{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+    /*  margin-bottom: 64px;  */ }
+
+.Explore-travel select{background-color: transparent; padding: 13px 20px; width: 40%; margin-right: 32px; 
+    margin-bottom: 36px; font-size: 15px; color: #4A4C53; border-color: #AFB0B9; 
+    border-radius: 8px;}
+
+.Explore-travel .location{margin-top: 60px;}
+
+.Explore-travel .table a{background-color: #FB8F1D; padding: 15px 35px; border: 1px solid transparent;
+    margin-top: 8px; display: inline-block; color: white; text-decoration: none; 
+    border-radius: 8px; font-size: 17px;}
+
+.Explore-travel .table a:hover{background-color: transparent; color: #FB8F1D; border-color: #FB8F1D;}
+
+
+.Explore-travel i{top: 500px; padding-left: 500px;  width: 30px; height: 30px;  color: #FDD08D; font-size: 35px; }
+
+.Explore-travel hr{width:8%; border: 2px solid; margin-top: 4%; color: #202336;
+    border-radius: 4px; }
+
+
+
+/* style for section3 A new way to explore the world  */
+
+
+
+.Explore-world {width: 80%; margin: 0 auto;}
+
+.Explore-world .table{display: table;  margin-bottom: 130px; }
+
+.Explore-world .table-cell{display: table-cell; vertical-align:  middle;  width: 30%; } 
+
+.Explore-world .table-cell h3{font-size: 36px;  font-family: 'Playfair Display'; margin-bottom: 15px; }
+
+.Explore-world p{font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;}
+
+
+.Explore-world img{width: 530px; height: 500px;}
+
+
+.Explore-world a{background-color: #FB8F1D; padding: 0px 25px; border: 1px solid transparent;
+    margin-top: 30px; display: inline-block; color: white; text-decoration: none; 
+    border-radius: 8px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    color: #FFFFFF;}
+
+.Explore-world a:hover{background-color: transparent; color: #FB8F1D; border-color: #FB8F1D;}
+
+.Explore-world i{color: #FDD08D; font-size: 35px; margin-left: 80%;}
+
+
+
+/* style for section4  Featured Destinations  */
+
+
+
+.Featured-Destinations{width: 90%; margin: 0 auto;}
+
+.Featured-Destinations .table{display: table; width: 100%;  margin-bottom: 150px;  }
+
+.Featured-Destinations .table-cell{display: table-cell;  width: 23.5%; } 
+
+.Featured-Destinations .image {position: relative;}
+
+.Featured-Destinations img{border-radius: 8px; width: 250; height: 300px;}
+
+.Featured-Destinations .img-text{position: absolute; bottom: 0; left: 0; background-color: white; border-top-right-radius: 6px; 
+    padding: 10px 22px 5px 0;}
+
+.Featured-Destinations h6{color: #042521; font-size: 18px; font-family: 'Inter'; }
+
+.Featured-Destinations span{display: block; font-family: 'Inter'; font-size: 15px; color: #80918E;
+    margin-top: 4px;}
+
+
+.Featured-Destinations h3 {
+    font-size: 36px;
+    font-family: PlayfairDisplay-Bold;
+    display: inline-block;
+    margin-bottom: 4%;
+    margin-left: 6%;
+    }
+    
+
+.Featured-Destinations a {
+    color: #FB8F1D;
+    font-size: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    display: inline-block;
+    margin-left: 55%;
+    }
+    
+.Featured-Destinations  i {
+    margin-left: 5px;
+    }
+
+
+.Featured-Destinations #plus{color: #FDD08D; font-size: 25px; left: 50px;}
+
+
+
+/* style for sectio5 Guides-Thounsand-Sunny   */
+
+
+.Guides-Thounsand-Sunny{width: 80%; margin: 0 auto;}
+
+.Guides-Thounsand-Sunny .table{display: table;  margin-bottom: 80px;  }
+    
+.Guides-Thounsand-Sunny .table-cell{display: table-cell; vertical-align:  middle;  width: 40%; } 
+
+.Guides-Thounsand-Sunny h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    }
+
+.Guides-Thounsand-Sunny  img{width: 550px; height: 450px; padding-left: 10%;}
+
+.Guides-Thounsand-Sunny p {
+    font-family: Mulish;
+    font-size: 17px;
+    margin: 15px 15px 30px  0px;
+    padding: 4px 5px;
+    color: gray;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-right: 8px;
+
+}
+
+.Guides-Thounsand-Sunny a{
+    border-radius: 8px;
+    padding: 20px 40px ;
+    background-color: #FB8F1D;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+}
+
+.Guides-Thounsand-Sunny a:hover{background-color: transparent; color: #FB8F1D; border-color: #FB8F1D;}
+
+
+.Guides-Thounsand-Sunny #plus-two{color: #FDD08D; font-size: 35px; margin-left: 40%; }
+
+.Guides-Thounsand-Sunny #plus{color: #FDD08D; font-size: 35px;  margin-left: 50%;}
+
+
+/* style for section6  Testimonials   */
+
+
+
+
+.Testimonials{width: 80%; margin: 0 auto;}
+
+.Testimonials .table{display: table;  margin-bottom: 120px;  }
+    
+.Testimonials .table-cell{display: table-cell; vertical-align:  middle;  width: 40%; } 
+
+
+.Testimonials h3{font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 20%;
+    }
+
+.Testimonials .icon-Testimonials i {
+    color: #FFBB0C;
+    font-size: 25px;
+    margin-bottom: 5%;
+    }
+    
+.Testimonials .paragraph-one{font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 9%;
+    margin-right: 15%;
+    }
+
+
+
+.Testimonials a{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    color: #000000;}
+
+
+
+.Testimonials .paragraph-two{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.85);}
+
+
+.Testimonials-image{position: relative;}
+
+.Testimonials-image img{border-radius: 8px; margin-left:20%; height: 450px; width: 350px; margin-top: 35%;}
+
+
+.Testimonials-image .Testimonials-image-icon{position: absolute; bottom: 0;  background-color: white; border-top-left-radius: 6px; 
+    padding-left: 25px; padding-right: 5px;  padding-top: 15px; margin-left: 60%;  width: 122px;
+    height: 40px;}
+
+.Testimonials-image i {font-size: 25px;  margin-right: 10%; border: 2px solid #000000; border-radius: 50%; padding: 8px;}
+
+.Testimonials-image  #left-row{color: grey;  border: 2px solid grey}
+
+.Testimonials #plus{color: #FDD08D; font-size: 35px; }
+
+
+
+
+/* style for section7  Trending-Stories*/
+
+
+.Trending-Stories{width: 80%; margin: 0 auto;}
+
+.Trending-Stories .table{display: table;  margin-bottom: 150px;  }
+    
+.Trending-Stories .table-cell{display: table-cell;   width: 24%; } 
+
+
+
+.Trending-Stories h3{font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    display: inline-block;
+    margin-bottom: 5%;
+    }
+
+.Trending-Stories .view-all{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    color: #FB8F1D;
+    margin-left: 67%;
+    }
+
+
+.Trending-Stories img{width: 250px; height: 300px;}
+    
+.Trending-Stories .Trending-Stories-headtext {font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    }
+    
+
+.Trending-Stories p{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+    color: #7D7987;
+    }
+    
+    
+.Trending-Stories .Trending-Stories-button{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: #FB8F1D;}
+
+
+
+
+    /* section8 footer */
+
+
+footer{background-color:  #F9F9FB; padding: 50px 70px 10px 70px ;}
+
+.footer{width: 100%; margin: 0 auto;  border-bottom: 1px solid ; vertical-align: middle; }
+
+.footer .table{display: table;   }
+        
+.footer .table-cell{display: table-cell;  padding-left: 10%; width: 25%;} 
+
+
+.footer .p-one{margin-top: 10%;  font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #848484; }
+
+
+.footer .p-two{font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 28px;
+    color: #848484;  margin-top: 20%; padding-bottom: 15%;}
+
+
+.footer h3{font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 60px;
+    color: #000000;
+    }
+
+.footer li{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #848484;
+    }
+
+footer .icon {
+    margin: 30px auto;
+    text-align: center;
+    }
+    
+footer a {
+    display: inline-block;
+    margin: 0px 12px;
+    }  
+
+
+
+
+
